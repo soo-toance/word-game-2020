@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; font-family: SeoulNamsan; }
+
+
+.game {width: 100%; height: 550px; box-sizing: border-box; }
+#quiz { width: 70%; height: 550px; background-color: rgb(170,238,220); text-overflow: hidden; float:left; }
+#info { position: relative; top: 200px; left: 20px; width: 30%; float: right; }
+
+.user { padding-top: 10px; text-align: center; width: 100%; height: 200px; background-color: rgb(204,201,207); margin: auto; word-break:normal; }
+.word { position: absolute; top: 0px; height: 30px; left: 0; margin: auto; text-overflow: hidden; line-height: 20px !important; }
+.result { position: absolute; background-color: rgba(204,201,207,0.8); width: 100%; height: 50px; color: blue; font-size: 20px; text-align: center; margin-top: 10px; }
+
+.equip { width : 100%; height : 100px; text-align: center; background-color: gray; }
+.item { line-height: 100px; border : 1px dotted black; margin-left: auto; }
+.added { border: 2px solid rgb(233,156,71); }
+

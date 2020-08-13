@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="javascript">
+<head>
+	<meta charset="utf-8">
+	<title>Word-Game-2020</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="result">
+	</div>
+
+	<!--단어-->
+	<div class="game">
+		<div id="quiz">
+			<a class="word_temp"></a>
+		</div>
+	</div>
+
+	<!--점수-->
+	<div class="user">
+		<label for="answer">입력 
+		<input id="answer" type="text"></label><br/>
+
+		<a>성공: </a>
+		<a id="success">0</a><br/>
+
+		<a>실패: </a>
+		<a id="fail">0</a><br/>
+
+		<button id="start">START GAME</button>
+	</div>
+</body>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/model.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/controller.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</html>
